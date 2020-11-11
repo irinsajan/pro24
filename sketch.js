@@ -40,7 +40,7 @@ box3.display();
 ground.display();
  
 }
-function keyPressed{
+function keyPressed(){
 	if (keyCode === UP_ARROW){
 		Matter.Body.applyForce(paperObject.Body,paperObject.Body.position,{x:85,y:-85});
 	}
